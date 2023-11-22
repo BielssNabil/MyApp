@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import ProfileGithub from "public/images/profilgithub.png";
 
 const Navbar = () => {
   return (
@@ -6,7 +8,7 @@ const Navbar = () => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar uppercase font-semibold text-white fixed z-20 top-0">
+        <div className="w-full navbar uppercase font-semibold text-white bg-black fixed z-20 top-0">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -36,7 +38,7 @@ const Navbar = () => {
               {/* Navbar menu content here */}
               <li>
                 <a
-                  href="#"
+                  href="#intro"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Home
@@ -48,6 +50,14 @@ const Navbar = () => {
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#EducationCom"
+                  className="hover:underline underline-offset-8 hover:text-sky-500"
+                >
+                  Education
                 </a>
               </li>
               <li>
@@ -95,26 +105,36 @@ const Navbar = () => {
         ></label>
         <ul className="menu p-4 w-60 min-h-full text-black bg-white z-20">
           {/* Sidebar content here */}
-          <li className="pb-3 font-semibold border-b-4 text-center">BIEL'S</li>
-          <li>
+          <div className="flex items-center justify-center my-5">
+            <Image
+              src={ProfileGithub}
+              alt="profil"
+              className="rounded-full w-44 border-2 border-black"
+            ></Image>
+          </div>
+
+          <li className="pb-3 font-semibold border-b-4 border-black text-center">
+            BIEL'S
+          </li>
+          <li className="my-2">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="my-2">
             <a href="#AboutCom">About</a>
           </li>
-          <li>
-            <a href="#ResumeCom">Resume</a>
+          <li className="my-2">
+            <a href="#EducationCom">Education</a>
           </li>
-          <li>
-            <a href="#ServicesCom">Services</a>
+          <li className="my-2">
+            <a href="#ExperienceCom">Experience</a>
           </li>
-          <li>
+          <li className="my-2">
             <a href="#SkillCom">Skill</a>
           </li>
-          <li>
+          <li className="my-2">
             <a href="#ProjectCom">Project</a>
           </li>
-          <li>
+          <li className="my-2">
             <a href="#ContactCom">Contact</a>
           </li>
         </ul>
