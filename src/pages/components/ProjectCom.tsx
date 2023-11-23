@@ -7,7 +7,7 @@ const ProjectCom = () => {
     <div id="ProjectCom" className="text-white min-h-screen">
       <h1 className="text-4xl font-bold text-center py-20">Project</h1>
       <div>
-        <div className="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 h-72 w-56  rounded-2xl hover:duration-700 duration-700">
+        <div className="relative group duration-500 cursor-pointer group overflow-hidden text-gray-50 h-72 w-56  rounded-2xl hover:duration-700">
           <div className="w-56 h-72 bg-lime-400 text-gray-800">
             <div className="flex flex-row justify-between">
               <svg
