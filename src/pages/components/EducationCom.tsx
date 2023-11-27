@@ -5,7 +5,7 @@ import { education } from "../api/data";
 const EducationCom = () => {
   return (
     <div>
-      <div id="EducationCom" className="text-white min-h-full">
+      <div id="EducationCom" className="text-white min-h-full my-10">
         <h1 className="text-4xl font-bold text-center pt-16">Education</h1>
         <div className="flex flex-wrap gap-8 justify-center my-10 mx-5">
           {education.map((education) => {

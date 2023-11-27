@@ -10,7 +10,7 @@ const SkillCom = () => {
   return (
     <div
       id="SkillCom"
-      className="bg-slate-300 rounded-3xl min-h-full mx-5 my-16 px-10 py-14"
+      className="bg-slate-300 rounded-3xl min-h-full mx-5 my-16 px-5 py-14"
     >
       <div>
         <div className="flex gap-2 items-center">

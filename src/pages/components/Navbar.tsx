@@ -38,7 +38,7 @@ const Navbar = () => {
               {/* Navbar menu content here */}
               <li>
                 <a
-                  href="#intro"
+                  href="/"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Home
@@ -46,7 +46,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#AboutCom"
+                  href="/About"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   About

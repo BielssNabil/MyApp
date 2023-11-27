@@ -85,14 +85,14 @@ export const experience = [
     id: 1,
     image: company1,
     companyName: "PT SAMPULKREATIV TECHNOLOGY",
-    Position: "STUDENT INTERNSHIP - FRONT-END-WEB-DEVELOPER",
+    Position: "STUDENT INTERNSHIP - FRONT END WEB DEVELOPER",
     date: "January 2023 - April 2023",
   },
   {
     id: 1,
     image: company2,
     companyName: "PT SVARA INOVASI INDONESIA",
-    Position: "INTERNSHIP - FRONT-END-WEB-DEVELOPER",
+    Position: "INTERNSHIP - FRONT END WEB DEVELOPER",
     date: "September 2023 - Now",
   },
 ];
