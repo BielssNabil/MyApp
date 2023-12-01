@@ -25,15 +25,6 @@ const AboutCom = () => {
           this field, I am ready to contribute my time and abilities in this
           field.
         </h5>
-        <button className="overflow-hidden w-35 p-2 h-12 bg-sky-500 text-white border-none rounded-md text-xl font-bold cursor-pointer relative group">
-          Download CV
-          <span className="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-          <span className="absolute w-36 h-32 -top-8 -left-2 bg-gray-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-          <span className="absolute w-36 h-32 -top-8 -left-2 bg-gray-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-          <span className="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6">
-            Download
-          </span>
-        </button>
       </div>
     </div>
   );

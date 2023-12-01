@@ -46,7 +46,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/About"
+                  href="#AboutCom"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   About
@@ -82,14 +82,6 @@ const Navbar = () => {
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Project
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#ContactCom"
-                  className="hover:underline underline-offset-8 hover:text-sky-500"
-                >
-                  Contact
                 </a>
               </li>
             </ul>
@@ -133,9 +125,6 @@ const Navbar = () => {
           </li>
           <li className="my-2">
             <a href="#ProjectCom">Project</a>
-          </li>
-          <li className="my-2">
-            <a href="#ContactCom">Contact</a>
           </li>
         </ul>
       </div>
