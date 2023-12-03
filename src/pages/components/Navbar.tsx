@@ -121,7 +121,7 @@ const Navbar = () => {
           <li className="my-2">
             <Link href="/Projects">Projects</Link>
           </li>
-          <div className="" id="contact">
+          <div className="mt-4 border-t-4 border-black" id="contact">
             <div className="rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl">
               <div className="text-gray-500 group-hover:scale-105 transition-all">
                 <svg
