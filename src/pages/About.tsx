@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 const about = () => {
   return (
-    <div className="bg-black font-serif px-2">
+    <div className="bg-black font-serif">
       <Navbar />
       <div>
         <AboutCom />

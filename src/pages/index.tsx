@@ -17,7 +17,7 @@ console.log(now.toLocaleString());
 export default function Home() {
   return (
     <>
-      <div className="bg-black font-serif px-2">
+      <div className="bg-black font-serif">
         <Navbar />
         <div className="bg-black font-serif px-2">
           <Intro />

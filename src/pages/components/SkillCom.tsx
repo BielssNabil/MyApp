@@ -10,9 +10,9 @@ const SkillCom = () => {
   return (
     <div
       id="SkillCom"
-      className="bg-slate-300 rounded-3xl min-h-full mx-5 my-16 px-5 py-14"
+      className="min-h-full mx-5 my-16 px-5 py-14 flex flex-wrap items-center justify-center"
     >
-      <div>
+      <div className="grid border p-10 rounded-3xl bg-slate-300">
         <div className="flex gap-2 items-center">
           <Image
             src={VsCode}
@@ -35,7 +35,7 @@ const SkillCom = () => {
                 <Image
                   src={skills.image}
                   alt="skills"
-                  className="w-14 h-14 mx-2 hover:-translate-y-0 duration-700 hover:scale-150"
+                  className="w-14 h-14 m-2 hover:-translate-y-0 duration-700 hover:scale-150"
                 ></Image>
               </div>
             );
@@ -55,7 +55,7 @@ const SkillCom = () => {
                 <Image
                   src={skills.image}
                   alt="skills"
-                  className="w-14 h-14 mx-2 hover:-translate-y-0 duration-700 hover:scale-150"
+                  className="w-14 h-14 m-2 hover:-translate-y-0 duration-700 hover:scale-150"
                 ></Image>
               </div>
             );
@@ -74,7 +74,7 @@ const SkillCom = () => {
                 <Image
                   src={skills.image}
                   alt="skills"
-                  className="w-14 h-14 mx-2 hover:-translate-y-0 duration-700 hover:scale-150"
+                  className="flex justify-center items-center w-14 h-14 m-2 hover:-translate-y-0 duration-700 hover:scale-150"
                 ></Image>
               </div>
             );
