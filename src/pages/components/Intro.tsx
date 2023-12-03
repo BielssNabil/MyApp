@@ -14,7 +14,7 @@ const Intro = () => {
             <h3 className="text-lg text-white">Hello !!</h3>
             <div className="flex mt-1">
               <h1 className="flex-none text-5xl mr-4 font-semibold text-white">
-                I'm
+                Im
               </h1>
               <h1 className="grow text-5xl mr-4 font-semibold text-sky-500">
                 Nabil

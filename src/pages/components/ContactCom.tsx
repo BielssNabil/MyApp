@@ -1,8 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import ProfileGithub from "public/images/profilgithub.png";
-import ProfileIG from "public/images/profilig.jpg";
-import IG from "public/images/ig.jpeg";
 
 const ContactCom = () => {
   return (

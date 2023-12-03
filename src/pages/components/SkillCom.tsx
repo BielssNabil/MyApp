@@ -31,7 +31,10 @@ const SkillCom = () => {
           </div>
           {skillsLanguage.map((skills) => {
             return (
-              <div className="flex flex-wrap flex-row gap-9 items-center justify-center">
+              <div
+                className="flex flex-wrap flex-row gap-9 items-center justify-center"
+                key={skills.id}
+              >
                 <Image
                   src={skills.image}
                   alt="skills"
@@ -51,7 +54,10 @@ const SkillCom = () => {
           </div>
           {skillsFramework.map((skills) => {
             return (
-              <div className="flex flex-wrap flex-row gap-4 items-center justify-center">
+              <div
+                className="flex flex-wrap flex-row gap-4 items-center justify-center"
+                key={skills.id}
+              >
                 <Image
                   src={skills.image}
                   alt="skills"
@@ -70,7 +76,10 @@ const SkillCom = () => {
           </div>
           {skillsOther.map((skills) => {
             return (
-              <div className="flex flex-wrap flex-row gap-4 items-center justify-center">
+              <div
+                className="flex flex-wrap flex-row gap-4 items-center justify-center"
+                key={skills.id}
+              >
                 <Image
                   src={skills.image}
                   alt="skills"

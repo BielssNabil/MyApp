@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ProfileGithub from "public/images/profilgithub.png";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -31,58 +32,58 @@ const Navbar = () => {
             </label>
           </div>
           <div className="flex-1 px-2 mx-2 font-semibold text-lg text-sky-500 z-20">
-            <a href="/">BIEL'S</a>
+            <Link href="/">BIELS</Link>
           </div>
           <div className="flex-none hidden lg:block z-20">
             <ul className="menu menu-horizontal">
               {/* Navbar menu content here */}
               <li>
-                <a
+                <Link
                   href="/"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#AboutCom"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#ExperienceCom"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Experience
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#EducationCom"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Education
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#SkillCom"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Skill
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#ProjectCom"
                   className="hover:underline underline-offset-8 hover:text-sky-500"
                 >
                   Project
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -106,19 +107,19 @@ const Navbar = () => {
           </div>
 
           <li className="pb-3 font-semibold border-b-4 border-black text-center">
-            BIEL'S
+            BIELS
           </li>
           <li className="my-2">
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li className="my-2">
-            <a href="/About">About</a>
+            <Link href="/About">About</Link>
           </li>
           <li className="my-2">
-            <a href="/Skill">Skill</a>
+            <Link href="/Skill">Skill</Link>
           </li>
           <li className="my-2">
-            <a href="/Projects">Projects</a>
+            <Link href="/Projects">Projects</Link>
           </li>
           <div className="" id="contact">
             <div className="rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl">

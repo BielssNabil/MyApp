@@ -9,7 +9,10 @@ const ExperienceCom = () => {
       <div className="flex flex-wrap gap-8 justify-center my-10 mx-5">
         {experience.map((experience) => {
           return (
-            <div className="flex flex-col justify-center items-center w-auto h-auto gap-5 p-5 bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow rounded-lg md:flex-row hover:-translate-y-0 duration-700 hover:scale-105">
+            <div
+              className="flex flex-col justify-center items-center w-auto h-auto gap-5 p-5 bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow rounded-lg md:flex-row hover:-translate-y-0 duration-700 hover:scale-105"
+              key={experience.id}
+            >
               <div className="flex justify-center items-center">
                 <Image
                   src={experience.image}
