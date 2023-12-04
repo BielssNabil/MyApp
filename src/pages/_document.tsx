@@ -1,10 +1,12 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import icon from "public/images/profilig.jpg";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <title>My App</title>
+      <title>Biels App</title>
+      <link rel="icon" href="public/images/profilig.jpg"></link>
       <body>
         <Main />
         <NextScript />

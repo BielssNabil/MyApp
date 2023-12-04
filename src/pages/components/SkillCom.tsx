@@ -12,7 +12,7 @@ const SkillCom = () => {
       id="SkillCom"
       className="min-h-full mx-5 my-16 px-5 py-14 flex flex-wrap items-center justify-center"
     >
-      <div className="grid border p-10 rounded-3xl bg-slate-300">
+      <div className="grid border p-10 rounded-3xl bg-slate-300 text-black">
         <div className="flex gap-2 items-center">
           <Image
             src={VsCode}
