@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <title>Biels App</title>
-      <link rel="icon" href="public/images/profilig.jpg"></link>
+      <link rel="icon" href="public/images/img2.jpg"></link>
       <body>
         <Main />
         <NextScript />
