@@ -20,12 +20,12 @@ export const skillsLanguage = [
   {
     id: 1,
     image: skills1,
-    title: "html",
+    title: "Html",
   },
   {
     id: 2,
     image: skills2,
-    title: "css",
+    title: "Css",
   },
   {
     id: 3,
