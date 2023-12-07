@@ -162,7 +162,7 @@ const Navbar = () => {
                   </a>
                   <a
                     className="hover:scale-110 transition-all duration-500 delay-200"
-                    href="wa.me/62895375473035"
+                    href="https://wa.me/62895375473035"
                   >
                     <svg
                       width="1em"
