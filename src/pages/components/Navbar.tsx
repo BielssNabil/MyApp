@@ -177,7 +177,7 @@ const Navbar = () => {
                   </a>
                   <a
                     className="hover:scale-110 transition-all duration-500 delay-200"
-                    href="www.linkedin.com/in/nabil-satya-pramana"
+                    href="https://www.linkedin.com/in/nabil-satya-pramana/"
                   >
                     <svg
                       width="1em"
