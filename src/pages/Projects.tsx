@@ -5,7 +5,7 @@ import ProjectCom from "./components/ProjectCom";
 
 const Projects = () => {
   return (
-    <div className="bg-black font-serif">
+    <div className="font-serif">
       <Navbar />
       <div className="min-h-screen">
         <ProjectCom />

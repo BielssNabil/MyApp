@@ -5,13 +5,15 @@ import { education } from "../api/data";
 const EducationCom = () => {
   return (
     <div>
-      <div id="EducationCom" className="text-white min-h-full my-10">
-        <h1 className="text-4xl font-bold text-center pt-16">Education</h1>
+      <div id="EducationCom" className="min-h-full my-10">
+        <h1 className="font-bold text-center pt-20 text-transparent text-5xl bg-clip-text bg-gradient-to-r from-green-400 to-sky-600">
+          Education
+        </h1>
         <div className="flex flex-wrap gap-8 justify-center my-10 mx-5">
           {education.map((education) => {
             return (
               <div
-                className="flex flex-col justify-center items-center w-auto h-auto gap-5 p-5 bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow rounded-lg md:flex-row hover:-translate-y-0 duration-700 hover:scale-105"
+                className="flex flex-col justify-center items-center w-auto h-auto gap-5 p-5 bg-gray-900 hover:shadow-2xl hover:shadow-sky-700 transition-shadow rounded-lg md:flex-row hover:-translate-y-0 duration-700 hover:scale-105"
                 key={education.id}
               >
                 <div className="flex justify-center items-center">

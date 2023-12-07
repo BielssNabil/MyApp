@@ -9,7 +9,7 @@ const Navbar = () => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar uppercase font-semibold text-white bg-black fixed z-20 top-0">
+        <div className="w-full navbar uppercase font-semibold bg-white fixed z-20 top-0">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -31,7 +31,7 @@ const Navbar = () => {
               </svg>
             </label>
           </div>
-          <div className="flex-1 px-2 mx-2 font-semibold text-lg text-sky-500 z-20">
+          <div className="flex-1 px-2 mx-2 text-transparent text-xl bg-clip-text bg-gradient-to-r from-green-400 to-sky-600 z-20">
             <Link href="/">BIELS</Link>
           </div>
           <div className="flex-none hidden lg:block z-20">

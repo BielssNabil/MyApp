@@ -1,30 +1,30 @@
 import React from "react";
 import Image from "next/image";
-import MyImg from "public/images/icon.jpg";
+import MyImg from "public/images/icon.png";
 
 const Intro = () => {
   return (
     <div>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 flex-wrap gap-4 px-5 py-10 mt-6 min-h-screen bg-black"
+        className="grid grid-cols-1 md:grid-cols-2 flex-wrap gap-4 px-5 py-10 mt-6 min-h-screen bg-white"
         id="intro"
       >
         <div className="flex items-center justify-center ">
           <div>
-            <h3 className="text-lg text-white">Hello !!</h3>
+            <h3 className="text-lg text-black">Hello !!</h3>
             <div className="flex mt-1">
-              <h1 className="flex-none text-5xl mr-4 font-semibold text-white">
+              <h1 className="flex-none text-5xl mr-4 font-semibold text-black">
                 Im
               </h1>
-              <h1 className="grow text-5xl mr-4 font-semibold text-sky-500">
+              <h1 className="grow mr-4 font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-green-400 to-sky-600">
                 Nabil
               </h1>
             </div>
-            <h1 className="text-5xl mb-3 font-semibold text-sky-500">
+            <h1 className="mb-3 font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-green-400 to-sky-600">
               Satya Pramana
             </h1>
 
-            <h3 className="text-xl mb-6 text-white">
+            <h3 className="text-xl mb-6 text-black">
               Interested FrontEnd Web Developer
             </h3>
             <div className="flex gap-4">
@@ -54,7 +54,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-start">
+        <div className="flex items-center justify-start bg-white">
           <Image src={MyImg} alt="img" />
         </div>
       </div>

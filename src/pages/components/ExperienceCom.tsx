@@ -4,13 +4,15 @@ import { experience } from "../api/data";
 
 const ExperienceCom = () => {
   return (
-    <div id="ExperienceCom" className="text-white min-h-full my-10">
-      <h1 className="text-4xl font-bold text-center pt-16">Experience</h1>
+    <div id="ExperienceCom" className="min-h-full my-10">
+      <h1 className="font-bold text-center pt-20 text-transparent text-5xl bg-clip-text bg-gradient-to-r from-green-400 to-sky-600">
+        Experience
+      </h1>
       <div className="flex flex-wrap gap-8 justify-center my-10 mx-5">
         {experience.map((experience) => {
           return (
             <div
-              className="flex flex-col justify-center items-center w-auto h-auto gap-5 p-5 bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow rounded-lg md:flex-row hover:-translate-y-0 duration-700 hover:scale-105"
+              className="flex flex-col justify-center items-center w-auto h-auto gap-5 p-5 bg-gray-900 hover:shadow-2xl hover:shadow-sky-700 transition-shadow rounded-lg md:flex-row hover:-translate-y-0 duration-700 hover:scale-105"
               key={experience.id}
             >
               <div className="flex justify-center items-center">

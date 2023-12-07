@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 const Skill = () => {
   return (
-    <div className="bg-black font-serif">
+    <div className="font-serif">
       <Navbar />
       <div className="min-h-screen">
         <SkillCom />
