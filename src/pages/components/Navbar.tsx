@@ -14,7 +14,7 @@ const Navbar = () => {
             <label
               htmlFor="my-drawer-3"
               aria-label="open sidebar"
-              className="btn btn-square btn-ghost"
+              className="btn btn-square btn-ghost bg-gray-400 hover:bg-sky-700"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -177,8 +177,7 @@ const Navbar = () => {
                   </a>
                   <a
                     className="hover:scale-110 transition-all duration-500 delay-200"
-                    href="www.linkedin.com/in/
-nabil-satya-pramana-49ab15278"
+                    href="www.linkedin.com/in/nabil-satya-pramana"
                   >
                     <svg
                       width="1em"
