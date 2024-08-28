@@ -1,3 +1,4 @@
+import data from './data.json';
 import skills1 from "public/images/html.png";
 import skills2 from "public/images/css.png";
 import skills3 from "public/images/javascript.png";
@@ -12,59 +13,21 @@ import skillsOther2 from "public/images/git.png";
 import skillsOther3 from "public/images/wordpress.png";
 import company1 from "public/images/sampulkreativ.jpeg";
 import company2 from "public/images/svara.jpeg";
-import education1 from "public/images/logostm.png";
+import education1 from "public/images/logosmkn1cimahi.png";
+import education2 from "public/images/logoUnjani.png";
 import project1 from "public/images/project1.jpg";
 import project2 from "public/images/project2.png";
 
-export const skillsLanguage = [
-  {
-    id: 1,
-    image: skills1,
-    title: "Html",
-  },
-  {
-    id: 2,
-    image: skills2,
-    title: "Css",
-  },
-  {
-    id: 3,
-    image: skills3,
-    title: "JavaScript",
-  },
-  {
-    id: 4,
-    image: skills4,
-    title: "Typescript",
-  },
-];
-export const skillsFramework = [
-  {
-    id: 1,
-    image: skillsFw1,
-    title: "ReatJs",
-  },
-  {
-    id: 2,
-    image: skillsFw2,
-    title: "NextJs",
-  },
-  {
-    id: 3,
-    image: skillsFw3,
-    title: "ViteJs",
-  },
-  {
-    id: 4,
-    image: skillsFw4,
-    title: "Tailwind",
-  },
-  {
-    id: 4,
-    image: skillsFw5,
-    title: "Bootstrap",
-  },
-];
+export const skillsLanguage = data.skillsLanguage.map((skill, index) => ({
+  ...skill,
+  image: [skills1, skills2, skills3, skills4][index]
+}));
+
+export const skillsFramework = data.skillsFramework.map((framework, index) => ({
+  ...framework,
+  image: [skillsFw1, skillsFw2, skillsFw3, skillsFw4, skillsFw5][index]
+}));
+
 export const skillsOther = [
   {
     id: 1,
@@ -82,59 +45,21 @@ export const skillsOther = [
     title: "ViteJs",
   },
 ];
-export const experience = [
-  {
-    id: 1,
-    image: company1,
-    companyName: "PT SAMPULKREATIV TECHNOLOGY",
-    Position: "STUDENT INTERNSHIP - FRONT END WEB DEVELOPER",
-    date: "January 2023 - April 2023",
-  },
-  {
-    id: 1,
-    image: company2,
-    companyName: "PT SVARA INOVASI INDONESIA",
-    Position: "INTERNSHIP - FRONT END WEB DEVELOPER",
-    date: "September 2023 - Now",
-  },
-];
-export const education = [
-  {
-    id: 1,
-    image: education1,
-    educationName: "SMK NEGERI 1 CIMAHI",
-    status: "STUDENT - SOFTWARE ENGINEERING",
-    date: "2020 - 2023",
-  },
-];
 
-export const project = [
-  {
-    id: 1,
-    image: project1,
-    projectName: "Personal Website",
-    description:
-      "I create portfolio website projects with several features such as experience, education, skills, projects, dan responsiveness.",
-    projectType1: "Website",
-    projectType2: "Landing Page",
-    link: "https://biels.vercel.app/",
-    linkGithub: "https://github.com/BielssNabil/MyApp",
-    skills1: skills4,
-    skills2: skillsFw2,
-    skills3: skillsFw4,
-  },
-  {
-    id: 2,
-    image: project2,
-    projectName: "SportChic",
-    description:
-      "I created an E-Commerce website with the name SportChic which has various features such as buying products and such.",
-    projectType1: "Website",
-    projectType2: "E-Commerce",
-    link: "/Maintenance",
-    linkGithub: "/Maintenance",
-    skills1: skills3,
-    skills2: skillsFw1,
-    skills3: skillsFw5,
-  },
-];
+export const experience = data.experience.map((exp, index) => ({
+  ...exp,
+  image: [company1, company2][index]
+}));
+
+export const education = data.education.map((edu, index) => ({
+  ...edu,
+  image: [education1, education2][index]
+}));
+
+export const project = data.project.map((proj, index) => ({
+  ...proj,
+  image: [project1, project2][index],
+  skills1: [skills4, skills3][index],
+  skills2: [skillsFw2, skillsFw1][index],
+  skills3: [skillsFw4, skillsFw5][index],
+}));

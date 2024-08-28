@@ -1,0 +1,64 @@
+{
+    "skillsLanguage": [
+      { "id": 1, "title": "Html" },
+      { "id": 2, "title": "Css" },
+      { "id": 3, "title": "JavaScript" },
+      { "id": 4, "title": "Typescript" }
+    ],
+    "skillsFramework": [
+      { "id": 1, "title": "ReactJs" },
+      { "id": 2, "title": "NextJs" },
+      { "id": 3, "title": "ViteJs" },
+      { "id": 4, "title": "Tailwind" },
+      { "id": 5, "title": "Bootstrap" }
+    ],
+    "experience": [
+      {
+        "id": 1,
+        "companyName": "PT SAMPULKREATIV TECHNOLOGY",
+        "Position": "STUDENT INTERNSHIP - FRONT END WEB DEVELOPER",
+        "date": "2 January 2023 - 30 April 2023"
+      },
+      {
+        "id": 2,
+        "companyName": "PT SVARA INOVASI INDONESIA",
+        "Position": "INTERNSHIP - FRONT END WEB DEVELOPER",
+        "date": "1 September 2023 - 30 Juni 2024"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "educationName": "SMK NEGERI 1 CIMAHI",
+        "status": "STUDENT - SOFTWARE ENGINEERING",
+        "date": "2020 - 2023"
+      },
+      {
+        "id": 2,
+        "educationName": "UNIVERSITAS JENDERAL ACHMAD YANI",
+        "status": "STUDENT - GOVERNMENTAL SCIENCE DEPARTEMENT",
+        "date": "2024 - Now"
+      }
+    ],
+    "project": [
+      {
+        "id": 1,
+        "projectName": "Personal Website",
+        "description": "I create portfolio website projects with several features such as experience, education, skills, projects, and responsiveness.",
+        "projectType1": "Website",
+        "projectType2": "Landing Page",
+        "link": "https://biels.vercel.app/",
+        "linkGithub": "https://github.com/BielssNabil/MyApp"
+      },
+      {
+        "id": 2,
+        "projectName": "SportChic",
+        "description": "I created an E-Commerce website with the name SportChic which has various features such as buying products and such.",
+        "projectType1": "Website",
+        "projectType2": "E-Commerce",
+        "link": "/Maintenance",
+        "linkGithub": "/Maintenance"
+      }
+    ]
+  }
+  
